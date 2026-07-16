@@ -1,0 +1,78 @@
+.experience{
+   min-height:auto;
+    padding:80px 8%;
+}
+
+.experience h4{
+    text-align:center;
+    color:#8b5cf6;
+    font-size:22px;
+}
+
+.experience h2{
+    text-align:center;
+    font-size:48px;
+    margin:15px 0 60px;
+}
+
+.experience h2 span{
+    color:#8b5cf6;
+}
+
+.experience-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:35px;
+}
+
+.experience-card{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(20px);
+    border-radius:20px;
+    padding:35px;
+    transition:.35s;
+}
+
+.experience-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 35px rgba(139,92,246,.35);
+    border-color:#8b5cf6;
+}
+
+.exp-icon{
+    font-size:55px;
+    color:#8b5cf6;
+    margin-bottom:20px;
+}
+
+.experience-card h3{
+    color:white;
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.experience-card h4{
+    color:#06b6d4;
+    margin-bottom:18px;
+    font-size:18px;
+}
+
+.experience-card p{
+    color:#cbd5e1;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.experience-card span{
+    color:#8b5cf6;
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+.experience h2{
+    font-size:36px;
+}
+
+}
