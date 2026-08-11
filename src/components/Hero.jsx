@@ -109,7 +109,7 @@ const Hero = () => {
         <div className="image-circle">
 
           <img
-            src="/profile.jpg"
+            src="/WhatsApp Image 2026-08-07 at 8.42.03 PM.jpeg"
             alt="Avani Haretlia"
           />
 
