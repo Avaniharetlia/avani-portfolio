@@ -63,13 +63,12 @@ const Hero = () => {
           </a>
 
           <a
-            href="/Avani_Haretlia_Resume.pdf"
-            download
-            className="btn-outline"
-          >
-            <FaDownload />
-            Resume
-          </a>
+  href="/resume_ah.pdf"
+  download
+  className="btn-outline"
+>
+  Download Resume
+</a>
 
         </div>
 
